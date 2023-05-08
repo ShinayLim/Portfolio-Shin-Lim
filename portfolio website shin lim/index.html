@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">s<span>h</span>in</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+            <li><a href="#about" class="nav__link">About</a></li>
+
+            <li><a href="#services" class="nav__link">Services</a></li>
+
+            <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a href="https://www.facebook.com/shinaylimm/" target="_blank" class="nav__social-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://twitter.com/shinaylim?s=11" target="_blank" class="nav__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a href="https://github.com/ShinayLim" target="_blank" class="nav__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/shin-lim-946a82274/" target="_blank" class="nav__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a href="https://www.instagram.com/https.shin_lim/" target="_blank" class="nav__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Contact Me!</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome To My World</span>
+            <h1 class="home__title">
+              Hi, I'm Shin Lim <span>Software Engineering Student.</span> at PUP.
+            </h1>
+          </div>
+
+          <img src="assets/img/home.jpg" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              As an enthusiastic and driven Computer Engineering student at 
+              Polytechnic University of the Philippines, I have gained a 
+              comprehensive understanding of various aspects of software engineering. 
+              Through hands-on experience with programming languages, software development, 
+              and hardware design, I have honed my technical skills and problem-solving 
+              abilities. I am excited to collaborate with other software engineers and 
+              industry professionals to apply my knowledge and develop innovative solutions 
+              that can make a meaningful impact in the world of technology.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills"
+                >Main Skills</span
+              >
+              <span class="tabs__btn" data-target="#award">Award</span>
+              <span class="tabs__btn" data-target="#experience">Experience
+                </span>
+              <span class="tabs__btn" data-target="#education">Education
+              </span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>User-Centered Design</span> 
+                    <span>As a software designer, I prioritize user-centered design, 
+                      using my knowledge of user research and usability testing 
+                      to create software that meets the needs of users.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Attention to Detail</span> 
+                    <span>With my keen eye for design and proficiency in tools like Adobe Photoshop and Canva, 
+                      I ensure that every element of the software, including the layout, typography, and color scheme, 
+                      is carefully considered and designed to achieve the desired user experience.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Wireframing and Prototyping</span>
+                    <span>As a website designer, I utilize wireframing and prototyping tools to create mockups of 
+                      website designs, allowing me to identify design issues early in the development process and 
+                      ensure that the final product meets the needs of users.</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="award">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>President's Lister</span> - PUP
+                    <span></br>GWA: 1.24</span>
+                    <span>2021 - 2023</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>With High Honors</span> - ACNSTHS
+                    <span>2021</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Ranked 2nd</span> - Overall batch ranking 
+                    <span>2020 - 2021</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Photojournalism</span> - 2nd Runner Up
+                    <span>2019 - 2020</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Junior Python Developer</span>
+                    <span>2021 - Current</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Entry-Level Web Developer</span>
+                    <span>2018 - Present</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Junior Game Developer</span>
+                    <span>2022</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Polytechnic University of the Philippines</span> 
+                    <span></br>NDC Campus Anonas cor. Pureza Sts. Sta. Mesa, Manila</span>
+                    <span></br>Bachelor of Science in Computer Engineering</span>
+                    <span>2021 - Present</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Antipolo City National Science and Technology High School</span> 
+                    <span></br>Brgy. San Jose, Antipolo City</span>
+                    <span></br>Science, Technology, Engineering and Mathematics (STEM Strand)</span>
+                    <span>2015 - 2021</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Mayamot Elementary School</span>
+                    <span></br>Brgy. Mayamot, Antipolo City</span>
+                    <span>2009 - 2015</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Skills I can offer</h2>
+        <p class="section__description">
+          I offer a wide range of services to help businesses and individuals achieve their goals.
+        </p>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil uil-rss-interface services__icon"></i>
+
+            <h3 class="services__title">Graphic Design</h3>
+            <p class="services__description">
+              As a graphic designer, I create visually engaging designs that communicate your 
+              message effectively and help your brand stand out.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+
+            <h3 class="services__title">Website Development</h3>
+            <p class="services__description">
+              As a website developer and designer, I create responsive and visually appealing 
+              websites that provide an intuitive user experience and help your business achieve its online goals.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-users-alt services__icon"></i>
+
+            <h3 class="services__title">Game Development</h3>
+            <p class="services__description">
+              Designing and coding video games using Unity game engine to create engaging and interactive experiences.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-desktop services__icon"></i>
+
+            <h3 class="services__title">Illustration and Photo Editing</h3>
+            <p class="services__description">
+              Crafting eye-catching 2D designs and illustrations with proficiency in Illustrator, Photoshop, 
+              and Ibis Paint, coupled with expertise in photo editing for impeccable image manipulation.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-users-alt services__icon"></i>
+
+            <h3 class="services__title">Photography</h3>
+            <p class="services__description">
+              Capturing stunning and captivating photographs that tell a story and convey emotions, 
+              with a keen eye for detail and an artistic touch.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-desktop services__icon"></i>
+
+            <h3 class="services__title">Video Editing</h3>
+            <p class="services__description">
+              Crafting dynamic and visually compelling videos that engage audiences and leave a lasting impact, 
+              with proficiency in industry-standard editing software and an eye for storytelling.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Project</h2>
+        <p class="section__description">
+          "Software is a great combination of artistry and engineering." 
+        </br> <i>- Bill Gates</i>
+        </p>
+
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-1.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Bringing Ideas to Life with Artistic Precision</p>
+              <h3 class="portfolio__title">
+                <a href="https://site118685.nicepage.io/?version=21596915-e982-4f7c-bfe5-43e60587a6ba&uid=4dc19682-c958-4334-8101-f799e5cca797" style="color: rgb(255, 255, 255);" target="_blank">
+                  Web Design</a></h3>
+              <p class="portfolio__description">
+                <a href="https://site118685.nicepage.io/?version=21596915-e982-4f7c-bfe5-43e60587a6ba&uid=4dc19682-c958-4334-8101-f799e5cca797" style="color: rgb(255, 255, 255);" target="_blank">
+                Creating modern and visually stunning web designs that are not only aesthetically pleasing but also user-friendly and 
+                responsive.
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-2.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Solving Problems One Line of Code at a Time</p>
+              <h3 class="portfolio__title">
+                <a href="https://github.com/ShinayLim?tab=repositories&q=&type=&language=python&sort=" style="color: rgb(255, 255, 255);" target="_blank">
+                Python Programming
+                </a>
+              </h3>
+              <p class="portfolio__description">
+                <a href="https://github.com/ShinayLim?tab=repositories&q=&type=&language=python&sort=" style="color: rgb(255, 255, 255);" target="_blank">
+                Motivated entry-level Python programmer dedicated to creating clean and concise code, 
+                eager to learn and contribute to innovative projects.
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-3.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Building Worlds Beyond Imagination</p>
+              <h3 class="portfolio__title">
+                <a href="https://youtu.be/gmL15ndnrCA" style="color: rgb(255, 255, 255);" target="_blank">
+                 Game Development</a></h3>
+              <p class="portfolio__description">
+                <a href="https://youtu.be/gmL15ndnrCA" style="color: rgb(255, 255, 255);" target="_blank">
+                Motivated entry-level Python programmer dedicated to creating clean and concise code, eager to learn 
+                and contribute to innovative projects.
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-4.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Transforming Thoughts into Visuals</p>
+              <h3 class="portfolio__title">Illustration</h3>
+              <p class="portfolio__description">
+                Talented photo editor and illustrator with a keen eye for detail, utilizing a combination of digital tools 
+                and artistic techniques to create captivating and visually stunning designs.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-5.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Freezing time, one click at a time</p>
+              <h3 class="portfolio__title">Photography</h3>
+              <p class="portfolio__description">
+                Capturing life's moments through a lens with a focus on authenticity and emotion, delivering stunning photography that tells a story.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-6.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Crafting Stories with Moving Pictures</p>
+              <h3 class="portfolio__title">
+                <a href="https://youtu.be/pkapp0sEeF4" style="color: rgb(255, 255, 255);" target="_blank">
+                Video Editing
+                </a>
+              </h3>
+              <p class="portfolio__description">
+                <a href="https://youtu.be/pkapp0sEeF4" style="color: rgb(255, 255, 255);" target="_blank">
+                Dynamic and creative video editor with a passion for storytelling, delivering 
+                visually stunning and engaging content that captivates audiences.
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Hire Me</h2>
+
+            <p class="contact__description">
+              I am available for freelance work. Connect with me via phone:
+              <a href="tel:0997-570-0887">0997-570-0887</a> or email:
+              <a href="mailto:lim.shin74@gmail.com">lim.shin74@gmail.com</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name *"
+                  class="contact__input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your e-mail"
+                  class="contact__input"
+                  id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Write a Subject"
+                  class="contact__input"
+                  id="contact-subject"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <textarea
+                  name="message"
+                  id="contact-message"
+                  class="contact__input textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn" />
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/contact.jpg" alt="" class="contact__img" />
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">s<span>h</span>in</a>
+
+        <div class="footer__socials">
+          <a
+            href="https://www.facebook.com/shinaylimm/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://twitter.com/shinaylim?s=11" target="_blank" class="footer__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a href="https://github.com/ShinayLim" target="_blank" class="footer__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/shin-lim-946a82274/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/https.shin_lim/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2023. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
