@@ -303,6 +303,23 @@ input {
   margin-left: auto;
 }
 
+/*=============== CV ===============*/
+.cv__btn {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  transition: all 0.3s var(--transition);
+  font-weight: var(--weight-500);
+  padding: 0.625rem 1.25rem;
+  background-color: var(--first-color);
+  border-color: var(--first-color);
+  color: var(--title-color);
+  border-radius: 20px;
+}
+
+.cv__btn:hover{
+  color: var(--first-color);
+}
+
 /*=============== ABOUT ===============*/
 .about {
   background-color: var(--container-color);
