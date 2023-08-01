@@ -125,7 +125,7 @@ const sendEmail = (e) => {
     // serviceID - templateID - #form - publickey
     emailjs
       .sendForm(
-        'service_sda6v3o',
+        'service_qzh6ymz',
         'template_v51gr8c',
         '#contact-form',
         'o3tWIaBrjgDdAoT8d'
@@ -133,8 +133,6 @@ const sendEmail = (e) => {
       .then(
         () => {
           // show message and add color, window + dot to open emoji
-          // it will just prompt a "Message Sent" text but it will not basically
-          // be sent to my email because it needs to use use a server-side scripting language like PHP
           errorMessage.classList.add('color-first');
           errorMessage.textContent = 'Message sent ✔';
 
@@ -157,3 +155,4 @@ const sendEmail = (e) => {
 };
 
 contactForm.addEventListener('submit', sendEmail);
+
