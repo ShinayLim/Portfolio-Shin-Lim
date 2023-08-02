@@ -156,3 +156,20 @@ const sendEmail = (e) => {
 
 contactForm.addEventListener('submit', sendEmail);
 
+
+const text = document.querySelector(".section__title");
+
+const textLoad = () => {
+  setTimeout(() => {
+    text.textContent = "About Me";
+  }, 0);
+  setTimeout(() => {
+    text.textContent = "About Shin";
+  }, 2000);
+  setTimeout(() => {
+    text.textContent = "About ShinayLim";
+  }, 4000); //1s = 1000 milliseconds
+}
+
+textLoad();
+setInterval(textLoad, 12000);
