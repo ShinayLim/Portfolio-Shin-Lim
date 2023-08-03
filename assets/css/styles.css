@@ -316,6 +316,7 @@ input {
 }
 
 .about__img {
+  max-width: 90%;
   border-radius: var(--radius);
 }
 
